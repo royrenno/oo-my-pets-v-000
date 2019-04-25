@@ -63,7 +63,7 @@ class Owner
     num_dogs =@pets[:dogs].size
     return"I have #{num_fish}fish,#{num_cats}cats(s),
     and#{num_dogs}dog(s)."
-  end 
+  end
   def self.all
     @@all
     def self.reset_all
@@ -73,7 +73,7 @@ class Owner
       @@all.size
     end
   end
-    
+
 
 
 
