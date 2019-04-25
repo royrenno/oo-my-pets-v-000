@@ -73,11 +73,4 @@ class Owner
       @@all.size
     end
   end
-
-
-
-
-
-
-  # code goes here
-end
+  
