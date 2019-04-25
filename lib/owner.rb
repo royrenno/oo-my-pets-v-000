@@ -14,10 +14,10 @@ class Owner
       return "I am a #{@species}."
   end
   def buy_fish(name_of_fish)
-    @pets[:fishes]<<Fish.new(name_of_fish)
+    @pets[:fishes]<< Fish.new(name_of_fish)
   end
   def buy_cat(name_of_cat)
-    @pets[:cats]<<Cats.new(name_of_cat)
+    @pets[:cats]<< Cats.new(name_of_cat)
   end
   # code goes here
 end
