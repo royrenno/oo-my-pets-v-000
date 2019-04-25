@@ -28,6 +28,7 @@ class Owner
         instances.each do |dog|
           dog.mood = "happy"
         end
+      end
         
   # code goes here
 end
