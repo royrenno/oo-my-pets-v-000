@@ -29,6 +29,6 @@ class Owner
           dog.mood = "happy"
         end
       end
-        
+
   # code goes here
 end
