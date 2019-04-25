@@ -50,7 +50,7 @@ class Owner
     end
   end
   
-  
+
 
   # code goes here
 end
