@@ -6,6 +6,9 @@ class Owner
     @species = species
 
     @pets ={:fishes=> [], :cats=> [], :dogs=> []}
+
+    def say_species
+      return "I am a #{@species}"
   end
   # code goes here
 end
