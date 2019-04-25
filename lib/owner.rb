@@ -74,4 +74,3 @@ class Owner
       @@all.size
     end
   end
-  
