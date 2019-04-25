@@ -52,11 +52,28 @@ class Owner
   def sell_pets
     @pets.collect do |species, instances|
       instances.each do |pet|
-        pets.mood ="nervous"
+        pets.mood = "nervous"
       end
       instances.clear
     end
   end
+  def list_pets
+    num_fish =@pets[:fishes].size
+    num_cats =@pets[:cats].size
+    num_dogs =@pets[:dogs].size
+    return"I have #{num_fish}fish,#{num_cats}cats(s),
+    and#{num_dogs}dog(s)."
+  end 
+  def self.all
+    @@all
+    def self.reset_all
+      @@all.clear
+    end
+    def self.count
+      @@all.size
+    end
+  end
+    
 
 
 
