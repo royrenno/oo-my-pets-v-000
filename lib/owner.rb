@@ -1,5 +1,5 @@
 class Owner
-  @@ all=[] 
+  @@ all=[]
   attr_accessor :name,:pets
   attr_reader :species
 
@@ -15,4 +15,3 @@ class Owner
   # code goes here
 end
 end
-
