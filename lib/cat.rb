@@ -4,3 +4,4 @@ class Cat
     @name = name
   # code goes here
 end
+end
